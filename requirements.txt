@@ -1,0 +1,7 @@
+arxiv
+pdfplumber
+sentence-transformers
+faiss-cpu
+numpy
+tqdm
+torch
