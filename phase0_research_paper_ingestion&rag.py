@@ -53,8 +53,8 @@ def chunk_text(text, chunk_size=500, overlap=100):
 
     return chunks
 
-# phase0/embed_store.py
 
+# phase0/embed_store.py
 import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
