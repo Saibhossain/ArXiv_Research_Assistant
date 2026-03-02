@@ -22,6 +22,7 @@ results = search_arxiv("retrieval augmented generation")
 for p in results:
     print(p["title"])
 
+
 # phase0/pdf_loader.py
 
 import pdfplumber
@@ -52,6 +53,7 @@ def chunk_text(text, chunk_size=500, overlap=100):
         chunks.append(chunk)
 
     return chunks
+
 
 
 # phase0/embed_store.py
